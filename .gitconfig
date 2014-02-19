@@ -24,7 +24,7 @@
     whitespace = red reverse
   [core]
     whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	autocrlf = true
+	autocrlf = false
 	editor = vim
 
 [alias]

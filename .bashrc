@@ -115,3 +115,6 @@ fi
 
 #PATH variable
 export PATH=$PATH:$HOME/dev/android/eclipse:$HOME/dev/android/adt-bundle-linux-x86_64-20131030/sdk/platform-tools:$HOME/dev/android/adt-bundle-linux-x86_64-20131030/sdk/tools:$HOME/genymotion
+
+#Command to mkdir and cd in to a new directory
+function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
