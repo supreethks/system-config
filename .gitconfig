@@ -38,7 +38,11 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
-    fd = diff -- 
+	fd = diff --
+	s = status
+	a = add .
+	rh = reset HEAD
+	b = branch
 
 
 [branch]
