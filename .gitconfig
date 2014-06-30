@@ -40,7 +40,7 @@
     ls = ls-files
 	fd = diff --
 	s = status
-	a = add .
+	a = add --all
 	rh = reset HEAD
 	b = branch
 

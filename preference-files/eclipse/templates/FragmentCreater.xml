@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="Fragment creater">public static ${enclosing_type} newInstance(${field}) {
+${enclosing_type} f = new ${enclosing_type}();
+Bundle b = new Bundle();
+//TODO: add arguments here
+f.setArguments(b);
+return f;
+
+}</template></templates>

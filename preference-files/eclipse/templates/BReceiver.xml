@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Broadcast receiver for android" enabled="true" name="BReceiver">	BroadcastReceiver receiver = new BroadcastReceiver() {
+		
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			String action = intent.getAction();
+			if(action.equals(${cursor})) {
+				//TODO do stuff
+			} else {
+				throw new IllegalArgumentException("Action " + action + " is not handled in the broadcast receiver.");
+			}
+		}
+	};</template></templates>
